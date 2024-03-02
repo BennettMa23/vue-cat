@@ -3,10 +3,11 @@
 </script>
 
 <template>
-    <el-button type="primary">i am button</el-button>
+  <!-- 一级路由出口组件 -->
+  <RouterView />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -15,6 +16,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  // color: priceColor;
 }
 
 nav {
